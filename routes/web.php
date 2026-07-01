@@ -69,5 +69,5 @@ Route::middleware('auth')->group(function () {
     // ════════════════════════════════════════════════════════════════════
     
     Route::get('/hutang', fn() => 'Halaman Hutang — akan dibuat di Tahap 15')->name('hutang.index');
-
+    // aku kucing
 });
